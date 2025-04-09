@@ -21,7 +21,7 @@ jobs:
 
     - name: Start ngrok tunnel
       run: |
-        Start-Process -NoNewWindow -FilePath "C:\ngrok.exe" -ArgumentList "authtoken YOUR_NGROK_AUTH_TOKEN"
+        Start-Process -NoNewWindow -FilePath "C:\ngrok.exe" -ArgumentList "authtoken 1zeAIGUOMqomyiWot8Lr2aPD617_25TtSYYwqpCngeSWDrh2Y"
         Start-Process -NoNewWindow -FilePath "C:\ngrok.exe" -ArgumentList "tcp 3389"
         Start-Sleep -Seconds 20
 
